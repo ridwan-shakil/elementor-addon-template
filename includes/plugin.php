@@ -209,11 +209,11 @@ final class Plugin {
      */
     public function register_widgets($widgets_manager) {
 
-        require_once(__DIR__ . '/includes/widgets/widget-1.php');
-        require_once(__DIR__ . '/includes/widgets/widget-2.php');
+        require_once(__DIR__ . '/widgets/widget-1.php');
+        // require_once(__DIR__ . '/includes/widgets/widget-2.php');
 
         $widgets_manager->register(new Widget_1());
-        $widgets_manager->register(new Widget_2());
+        // $widgets_manager->register(new Widget_2());
     }
 
     /**
